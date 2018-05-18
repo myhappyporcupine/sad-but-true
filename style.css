@@ -25,3 +25,7 @@
 #petunius .name {
 	font-family: 'Skranji', cursive;
 }
+
+#tumble-canvas {
+	border: 1px solid black;
+}
