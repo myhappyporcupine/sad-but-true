@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+#tumble {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #824993;
+	color: #d6cd82;
+	padding: 10px;
+	width: 30%;
+}
+
+#tumble .name {
+	font-family: 'Skranji', cursive;
+}
+
+#petunius {
+	font-family: 'Kavivanar', cursive;
+	background-color: #317089;
+	color: #d6cd82;
+	padding: 10px;
+	width: 30%;
+}
+
+#petunius .name {
+	font-family: 'Skranji', cursive;
+}
