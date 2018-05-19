@@ -6,33 +6,41 @@ body {
 	background-color: #edddad;
 }
 
-#tumble {
+#tumble-div {
+	width: 400px;
+}
+
+#tumble-paragraph {
 	font-family: 'Open Sans Condensed', sans-serif;
 	background-color: #824993;
 	color: #edddad;
-	padding: 10px;
-	width: 30%;
+	margin: 20px;
+	padding: 20px;
 }
 
-#tumble .name {
+#tumble-paragraph .name {
 	font-family: 'Skranji', cursive;
 }
 
 #tumble-canvas {
 	border: 1px solid black;
 	background-color: #824993;
-	color: #d6cd82;
 }
 
-#petunius {
+
+#petunius-div {
+	width: 400px;;
+}
+
+#petunius-paragraph {
 	font-family: 'Kavivanar', cursive;
 	background-color: #317089;
 	color: #edddad;
-	padding: 10px;
-	width: 30%;
+	margin: 20px;
+	padding: 20px;
 }
 
-#petunius .name {
+#petunius-paragraph .name {
 	font-family: 'Skranji', cursive;
 }
 
