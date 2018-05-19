@@ -47,27 +47,41 @@
 	ctx.stroke();
 
 	// Tumble's Eyes
+	// Transform of Both Eyes
+	ctx.save();
+	ctx.translate(0, browHeight);
 	// Left
+	ctx.save();
+	ctx.translate(headRadius/2, 0);
 	ctx.beginPath();
-	ctx.arc(headRadius/2, browHeight, eyeRadius, 0, 2*Math.PI);
+	ctx.arc(0, 0, eyeRadius, 0, 2*Math.PI);
 	ctx.closePath();
 	ctx.fill();
 	ctx.stroke();
+	ctx.restore();
 	// Right
+	ctx.save();
+	ctx.translate(-headRadius/2, 0);
 	ctx.beginPath();
-	ctx.arc(-headRadius/2, browHeight, eyeRadius, 0, 2*Math.PI);
+	ctx.arc(0, 0, eyeRadius, 0, 2*Math.PI);
 	ctx.closePath();
 	ctx.fill();
 	ctx.stroke();
+	ctx.restore();
+	// Restore from Transform of Both Eyes
+	ctx.restore();
 
 	// Tumble's Nose
+	ctx.save();
+	ctx.translate(0, noseOffsetFromTop);
 	ctx.beginPath();
-	ctx.moveTo(-noseWidth/2, noseOffsetFromTop);
-	ctx.lineTo(noseWidth/2, noseOffsetFromTop);
-	ctx.lineTo(0, noseOffsetFromTop + noseHeight);
+	ctx.moveTo(-noseWidth/2, 0);
+	ctx.lineTo(noseWidth/2, 0);
+	ctx.lineTo(0, noseHeight);
 	ctx.closePath();
 	ctx.fill();
 	ctx.stroke();
+	ctx.restore();
 
 	// Restore from Transform of Tumble's Head
 	ctx.restore();
