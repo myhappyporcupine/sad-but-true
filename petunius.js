@@ -3,8 +3,8 @@
 	const ctx = canvas.getContext('2d');
 
 	// Styles
-	ctx.strokeStyle = 'black';
-	ctx.fillStyle = 'white';
+	ctx.strokeStyle = '#317089';
+	ctx.fillStyle = '#edddad';
 
 	// Petunius' Head
 	ctx.fillRect(50, 150, 100, 50);

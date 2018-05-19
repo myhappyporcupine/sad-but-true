@@ -3,8 +3,8 @@
 	const ctx = canvas.getContext('2d');
 
 	// Styles
-	ctx.strokeStyle = 'black';
-	ctx.fillStyle = 'white';
+	ctx.strokeStyle = '#824993';
+	ctx.fillStyle = '#edddad';
 
 	// Tumble's Body
 	ctx.beginPath();
