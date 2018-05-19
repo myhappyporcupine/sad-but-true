@@ -1,4 +1,4 @@
-(function drawTumble() {
+(function animateTumble() {
 	const canvas = document.getElementById('tumble-canvas');
 	const ctx = canvas.getContext('2d');
 
@@ -24,8 +24,8 @@
 	ctx.strokeStyle = '#824993';
 	ctx.fillStyle = '#edddad';
 
-	(function drawTumble() {
-		requestAnimationFrame(drawTumble);
+	(function run() {
+		requestAnimationFrame(run);
 
 		// Background
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
